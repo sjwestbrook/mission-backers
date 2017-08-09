@@ -21,28 +21,14 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: './partials/404.html'
         })
     
-        .state('aca', {
-            url: '/aca',
-            templateUrl: './partials/aca.html'
+        .state('contact', {
+            url: '/contact',
+            templateUrl: './partials/contact.html'
         })
 
-        .state('board', {
-            url: '/board',
-            templateUrl: './partials/board.html'
-        })
-     
-       .state('locations', {
-            url: '/locations',
-            templateUrl: './partials/locations.html'
-        })
-    
-       .state('staff', {
-            url: '/staff',
-            templateUrl: './partials/staff.html'
-        })
-    
-        .state('wise', {
-             url: '/wise',
-            templateUrl: './partials/wise.html'
-        });    
+        .state('services', {
+            url: '/services',
+            templateUrl: './partials/services.html'
+        });
+  
 });
