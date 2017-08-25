@@ -25,10 +25,25 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/contact',
             templateUrl: './partials/contact.html'
         })
-
+    
+        .state('staff', {
+            url: '/staff',
+            templateUrl: './partials/staff.html'
+        })
+    
         .state('services', {
             url: '/services',
             templateUrl: './partials/services.html'
+        })
+    
+        .state('testimonials', {
+            url: '/testimonials',
+            templateUrl: './partials/testimonials.html'
+        })
+    
+        .state('volunteer', {
+            url: '/volunteer',
+            templateUrl: './partials/volunteer.html'
         });
   
 });
