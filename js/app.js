@@ -26,6 +26,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: './partials/contact.html'
         })
     
+        .state('sitemap', {
+            url: '/sitemap',
+            templateUrl: './partials/sitemap.html'
+        })
+    
         .state('staff', {
             url: '/staff',
             templateUrl: './partials/staff.html'
