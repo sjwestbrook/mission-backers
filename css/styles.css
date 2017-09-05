@@ -63,6 +63,7 @@
 .button-links a {
   color: #ffffff;
   text-decoration: none;
+  background-color: #144734;
 }
 .button-links a:hover {
   color: #ffffff;
@@ -134,7 +135,8 @@ body .container-fluid {
 button,
 .btn,
 .btn-primary,
-.btn-block {
+.btn-block,
+.btn-lg {
   font-size: 1.35em;
   font-weight: bold;
   color: #ffffff;
@@ -144,14 +146,17 @@ button,
 button a,
 .btn a,
 .btn-primary a,
-.btn-block a {
+.btn-block a,
+.btn-lg a {
   color: #ffffff;
   text-decoration: none;
+  background-color: #144734;
 }
 button a:hover,
 .btn a:hover,
 .btn-primary a:hover,
-.btn-block a:hover {
+.btn-block a:hover,
+.btn-lg a:hover {
   color: #ffffff;
   background-color: rbg(118, 37, 61);
   outline: 1px dotted #ffffff;
@@ -160,7 +165,8 @@ button a:hover,
 button a:visited,
 .btn a:visited,
 .btn-primary a:visited,
-.btn-block a:visited {
+.btn-block a:visited,
+.btn-lg a:visited {
   color: #ffffff;
   text-decoration: none;
   background-color: #144734;
@@ -168,7 +174,8 @@ button a:visited,
 button a:active,
 .btn a:active,
 .btn-primary a:active,
-.btn-block a:active {
+.btn-block a:active,
+.btn-lg a:active {
   color: #ffffff;
   text-decoration: none;
   background-color: rbg(118, 37, 61);
@@ -176,7 +183,8 @@ button a:active,
 button a:focus,
 .btn a:focus,
 .btn-primary a:focus,
-.btn-block a:focus {
+.btn-block a:focus,
+.btn-lg a:focus {
   color: #ffffff;
   background-color: rbg(118, 37, 61);
   outline: 1px dotted #ffffff;
@@ -185,7 +193,8 @@ button a:focus,
 button:hover,
 .btn:hover,
 .btn-primary:hover,
-.btn-block:hover {
+.btn-block:hover,
+.btn-lg:hover {
   color: #ffffff;
   background-color: rbg(118, 37, 61);
   text-decoration: none;
@@ -193,7 +202,8 @@ button:hover,
 button:visited,
 .btn:visited,
 .btn-primary:visited,
-.btn-block:visited {
+.btn-block:visited,
+.btn-lg:visited {
   color: #ffffff;
   background-color: #144734;
   text-decoration: none;
@@ -201,7 +211,8 @@ button:visited,
 button:active,
 .btn:active,
 .btn-primary:active,
-.btn-block:active {
+.btn-block:active,
+.btn-lg:active {
   color: #ffffff;
   background-color: rbg(118, 37, 61);
   text-decoration: none;
@@ -209,11 +220,15 @@ button:active,
 button:focus,
 .btn:focus,
 .btn-primary:focus,
-.btn-block:focus {
+.btn-block:focus,
+.btn-lg:focus {
   color: #ffffff;
   outline: 2px solid #ffffff;
   background-color: rbg(118, 37, 61);
   text-decoration: none;
+}
+.btn-lg {
+  padding: 2% 4%;
 }
 h1,
 h2,
@@ -313,58 +328,6 @@ li {
 .img-xl {
   width: 95%;
 }
-/* ============================== CARD STYLES ============================== */
-/* .card {
-  background-color: @ltstgrey;
-  padding: 3% 2%;
-  margin-bottom: 5%;
-  text-align: center; 
-  -webkit-box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    2px 2px 3px 0px rgba(50, 50, 50, 0.75);
-  box-shadow:         2px 2px 3px 0px rgba(50, 50, 50, 0.75);
-  .news-img {
-    width: 100%;    
-  }
-  .last-card {
-    margin-bottom: 2%; 
-  }
-}
-.card-img-top {
-  width: 50%; 
-}
-.card-img-top-lg {
-  width: 90%; 
-} */
-/* ============================== MODAL STYLES ============================== */
-/* .modal-header {
-  color: @white;
-  background-color: @maroon;  
-  button {
-    span {
-      .header-links;
-    }
-  }
-}
-.modal-body {
-  .body-links; 
-}
-.modal-footer {
-  color: @white;
-  background-color: @teal;
-  .footer-links;  
-}
-.modal-btn-margin {
-  margin-bottom: 5px;
-}
-.locations {
-  img {
-    width: 100%;
-  }
-  .location-list {
-    padding-left: 5%;
-  }
-}
- */
 /* ============================== HEADER STYLES ============================== */
 /* ============================== NAVBAR STYLES ============================== */
 .navbar-other {
@@ -437,6 +400,9 @@ li {
   margin-top: 12%;
   font-size: .875em;
 }
+.navbar-other .container-fluid .nav .nav-item button ul {
+  padding-top: 3%;
+}
 .navbar-other .container-fluid .nav .nav-item button ul li a a {
   color: #ffffff;
   background-color: #144734;
@@ -469,24 +435,6 @@ li {
   color: #ffffff;
 }
 /*  ======================== HOME ======================== */
-/* .carousel-row {
-  margin: -2% -8% 0 -8%;
-  padding-bottom: 0;
-}
-#carouselHome {
-  .carousel-inner {
-    .item {
-      p {
-        text-align: center;
-        .carousel-img {
-          width: 100%;
-          margin-bottom: -3%;
-        }
-      }      
-    }  
-  } 
-}
- */
 /* ======================== FOOTER STYLES ======================== */
 .footer {
   text-align: left;
@@ -499,7 +447,7 @@ li {
   color: #ffffff;
   background-color: #144734;
   font-size: .8em;
-  padding-top: 5%;
+  padding: 5% 0;
 }
 .footer .footer-index img {
   width: 150px;
