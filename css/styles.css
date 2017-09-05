@@ -1,6 +1,11 @@
 /* ============================== VARIABLES ============================== */
 /* ============================== COLORS ============================== */
-/* @teal: rbg(20,71,52); */
+/* @maroon: rbg(118,37,61);
+@teal: rbg(20,71,52);
+@blue: rbg(80,116,138);
+@lime: rgb(191,185,49);
+@orange: rgb(224,126,38);
+@yellow: rgb(225,215,0); */
 /* @black-transp: rgba(0, 0, 0, 0.4);
 @charcoal: #333333;  
 @medgrey: #717D8C;
@@ -43,8 +48,8 @@
   font-weight: bold;
 }
 .body-links a:hover {
-  color: rbg(118, 37, 61);
-  outline: 1px dotted rbg(118, 37, 61);
+  color: #763d37;
+  outline: 1px dotted #763d37;
   text-decoration: none;
 }
 .body-links a:visited {
@@ -52,12 +57,12 @@
   text-decoration: none;
 }
 .body-links a:active {
-  color: rbg(118, 37, 61);
+  color: #763d37;
   text-decoration: none;
 }
 .body-links a:focus {
-  color: rbg(118, 37, 61);
-  outline: 1px dotted rbg(118, 37, 61);
+  color: #763d37;
+  outline: 1px dotted #763d37;
   text-decoration: none;
 }
 .button-links a {
@@ -67,7 +72,7 @@
 }
 .button-links a:hover {
   color: #ffffff;
-  background-color: rbg(118, 37, 61);
+  background-color: #763d37;
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
@@ -79,11 +84,11 @@
 .button-links a:active {
   color: #ffffff;
   text-decoration: none;
-  background-color: rbg(118, 37, 61);
+  background-color: #763d37;
 }
 .button-links a:focus {
   color: #ffffff;
-  background-color: rbg(118, 37, 61);
+  background-color: #763d37;
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
@@ -158,7 +163,7 @@ button a:hover,
 .btn-block a:hover,
 .btn-lg a:hover {
   color: #ffffff;
-  background-color: rbg(118, 37, 61);
+  background-color: #763d37;
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
@@ -178,7 +183,7 @@ button a:active,
 .btn-lg a:active {
   color: #ffffff;
   text-decoration: none;
-  background-color: rbg(118, 37, 61);
+  background-color: #763d37;
 }
 button a:focus,
 .btn a:focus,
@@ -186,7 +191,7 @@ button a:focus,
 .btn-block a:focus,
 .btn-lg a:focus {
   color: #ffffff;
-  background-color: rbg(118, 37, 61);
+  background-color: #763d37;
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
@@ -196,7 +201,7 @@ button:hover,
 .btn-block:hover,
 .btn-lg:hover {
   color: #ffffff;
-  background-color: rbg(118, 37, 61);
+  background-color: #763d37;
   text-decoration: none;
 }
 button:visited,
@@ -214,7 +219,7 @@ button:active,
 .btn-block:active,
 .btn-lg:active {
   color: #ffffff;
-  background-color: rbg(118, 37, 61);
+  background-color: #763d37;
   text-decoration: none;
 }
 button:focus,
@@ -224,7 +229,7 @@ button:focus,
 .btn-lg:focus {
   color: #ffffff;
   outline: 2px solid #ffffff;
-  background-color: rbg(118, 37, 61);
+  background-color: #763d37;
   text-decoration: none;
 }
 .btn-lg {
@@ -254,8 +259,8 @@ li a {
 }
 p a:hover,
 li a:hover {
-  color: rbg(118, 37, 61);
-  outline: 1px dotted rbg(118, 37, 61);
+  color: #763d37;
+  outline: 1px dotted #763d37;
   text-decoration: none;
 }
 p a:visited,
@@ -265,13 +270,13 @@ li a:visited {
 }
 p a:active,
 li a:active {
-  color: rbg(118, 37, 61);
+  color: #763d37;
   text-decoration: none;
 }
 p a:focus,
 li a:focus {
-  color: rbg(118, 37, 61);
-  outline: 1px dotted rbg(118, 37, 61);
+  color: #763d37;
+  outline: 1px dotted #763d37;
   text-decoration: none;
 }
 p {
@@ -295,39 +300,49 @@ li {
 .row {
   padding: 2% 0;
 }
-/* =================== SPACING / ALIGNMENT CLASS STYLES =================== */
+/* ============================== SPACING / ALIGNMENT CLASS STYLES ============================== */
+/* 
 .btn-margin-btm {
-  margin-bottom: .2em;
+  margin-bottom: .2em;  
 }
+
 .btn-margin-top-btm {
-  margin-top: .2em;
-  margin-bottom: .2em;
+  margin-top: .2em;  
+  margin-bottom: .2em; 
 }
+
 .btn-margin-top {
-  margin-top: .2em;
+  margin-top: .2em;  
 }
+
 .margin-bottom {
   margin-bottom: 2%;
 }
+
 .padding-none {
-  padding: 0;
+  padding: 0;  
 }
+
 .centered-text {
-  text-align: center;
+  text-align: center; 
 }
+
 .right-aligned {
-  text-align: right;
+  text-align: right; 
 }
-/* =================== IMAGE CLASS STYLES =================== */
-.logo-sm {
-  width: 60%;
+ */
+/* ============================== IMAGE CLASS STYLES ============================== */
+/* .logo-sm {
+  width: 60%; 
 }
+
 .img-lg {
-  width: 90%;
+  width: 90%; 
 }
+
 .img-xl {
-  width: 95%;
-}
+  width: 95%; 
+} */
 /* ============================== HEADER STYLES ============================== */
 /* ============================== NAVBAR STYLES ============================== */
 .navbar-other {
@@ -340,7 +355,7 @@ li {
   width: 100%;
   margin: 0 auto;
   background-color: #144734;
-  height: 6rem;
+  height: 7rem;
 }
 .navbar-other .container-fluid .navbar-brand {
   padding: 0;
@@ -351,6 +366,7 @@ li {
 .navbar-other .container-fluid .nav {
   list-style: none;
   background-color: #144734;
+  padding-top: 1%;
 }
 .navbar-other .container-fluid .nav .nav-item {
   padding: 0;
@@ -424,13 +440,14 @@ li {
 .navbar-other .container-fluid .navbar-header .navbar-toggle .icon-bar {
   background-color: #ffffff;
 }
-/*  ======================== STAFF ======================== */
+/* ============================== HOME STYLES ============================== */
+/*  ============================== STAFF STYLES ============================== */
 .staff-img {
   width: 90%;
   display: inline-block;
   vertical-align: top;
 }
-/* ======================== FOOTER STYLES ======================== */
+/* ============================== FOOTER STYLES ============================== */
 .footer {
   text-align: left;
 }
