@@ -424,7 +424,12 @@ li {
 .navbar-other .container-fluid .navbar-header .navbar-toggle .icon-bar {
   background-color: #ffffff;
 }
-/*  ======================== HOME ======================== */
+/*  ======================== STAFF ======================== */
+.staff-img {
+  width: 90%;
+  display: inline-block;
+  vertical-align: top;
+}
 /* ======================== FOOTER STYLES ======================== */
 .footer {
   text-align: left;
