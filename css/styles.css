@@ -1,1 +1,803 @@
 
+/* ============================== VARIABLES ============================== */
+/* ============================== COLORS ============================== */
+/* @black-transp: rgba(0, 0, 0, 0.4);
+@charcoal: #333333;  
+@medgrey: #717D8C;
+@ltgrey: #EEEEEE;
+@ltstgrey: #FCFCFC; */
+/* ============================== FONTS ============================== */
+/* ============================== MIXINS ============================== */
+.header-links a {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  font-size: .875em;
+  text-decoration: none;
+}
+.header-links a:hover {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  /*       border: 0; */
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.header-links a:visited {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+.header-links a:active {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+.header-links a:focus {
+  color: #ffffff;
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.body-links a {
+  color: rbg(20, 71, 52);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.body-links a:hover {
+  color: rbg(118, 37, 61);
+  outline: 1px dotted rbg(118, 37, 61);
+  text-decoration: none;
+}
+.body-links a:visited {
+  color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+.body-links a:active {
+  color: rbg(118, 37, 61);
+  text-decoration: none;
+}
+.body-links a:focus {
+  color: rbg(118, 37, 61);
+  outline: 1px dotted rbg(118, 37, 61);
+  text-decoration: none;
+}
+.block-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.block-links a:hover {
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  outline: 1px dotted #ffffff;
+}
+.block-links a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+.block-links a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+.block-links a:focus {
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  outline: 1px dotted #ffffff;
+}
+.button-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.button-links a:hover {
+  color: #ffffff;
+  background-color: rbg(118, 37, 61);
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.button-links a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+.button-links a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+.button-links a:focus {
+  color: #ffffff;
+  background-color: rbg(118, 37, 61);
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.footer-links a {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.footer-links a:visited {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+.footer-links a:active {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  /*       border: 0; */
+  text-decoration: none;
+}
+.footer-links a:focus {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.footer-links a i {
+  font-size: 1.5em;
+}
+.footer-links a img {
+  width: 80%;
+}
+/* .block-styles {
+    height: 260px;
+    margin: 0;
+    padding: 10% 2%;
+    p {
+      padding: 4% 5%; 
+      font-size: 1.3em;
+    } 
+} */
+/* .block-styles2 {
+    height: 360px;
+    margin: 0;
+    padding: 10% 2%;
+    color: @white;
+    p {
+      padding: 4% 5%; 
+      font-size: 1.2em;
+    } 
+} */
+/* ============================== GLOBAL ELEMENT STYLES ============================== */
+body {
+  font-family: 'Alegreya', serif;
+  /*   background-color: @ltgrey; */
+  background-color: #ffffff;
+}
+button,
+.btn,
+.btn-primary,
+.btn-block {
+  font-size: 1.35em;
+  font-weight: bold;
+  background-color: rbg(20, 71, 52);
+  border-radius: 0;
+}
+button a,
+.btn a,
+.btn-primary a,
+.btn-block a {
+  color: #ffffff;
+  text-decoration: none;
+}
+button a:hover,
+.btn a:hover,
+.btn-primary a:hover,
+.btn-block a:hover {
+  color: #ffffff;
+  background-color: rbg(118, 37, 61);
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+button a:visited,
+.btn a:visited,
+.btn-primary a:visited,
+.btn-block a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+button a:active,
+.btn a:active,
+.btn-primary a:active,
+.btn-block a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+button a:focus,
+.btn a:focus,
+.btn-primary a:focus,
+.btn-block a:focus {
+  color: #ffffff;
+  background-color: rbg(118, 37, 61);
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+button:hover,
+.btn:hover,
+.btn-primary:hover,
+.btn-block:hover {
+  color: #ffffff;
+  background-color: rbg(118, 37, 61);
+  text-decoration: none;
+}
+button:visited,
+.btn:visited,
+.btn-primary:visited,
+.btn-block:visited {
+  color: #ffffff;
+  background-color: rbg(118, 37, 61);
+  text-decoration: none;
+}
+button:active,
+.btn:active,
+.btn-primary:active,
+.btn-block:active {
+  color: #ffffff;
+  background-color: rbg(118, 37, 61);
+  text-decoration: none;
+}
+button:focus,
+.btn:focus,
+.btn-primary:focus,
+.btn-block:focus {
+  color: #ffffff;
+  outline: 2px solid #ffffff;
+  background-color: rbg(118, 37, 61);
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Alegreya', serif;
+  font-weight: 700;
+  text-align: center;
+}
+p,
+li {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+p a,
+li a {
+  color: rbg(20, 71, 52);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+p a:hover,
+li a:hover {
+  color: rbg(118, 37, 61);
+  outline: 1px dotted rbg(118, 37, 61);
+  text-decoration: none;
+}
+p a:visited,
+li a:visited {
+  color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+p a:active,
+li a:active {
+  color: rbg(118, 37, 61);
+  text-decoration: none;
+}
+p a:focus,
+li a:focus {
+  color: rbg(118, 37, 61);
+  outline: 1px dotted rbg(118, 37, 61);
+  text-decoration: none;
+}
+p {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+a {
+  cursor: pointer;
+}
+ul,
+li {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+ol li {
+  list-style-type: disc;
+}
+i {
+  margin-right: .25em;
+}
+/* ============================== GLOBAL CLASS STYLES ============================== */
+.container-fluid {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.bold {
+  font-weight: bold;
+}
+.row {
+  padding: 2% 0;
+}
+/* =================== SPACING / ALIGNMENT CLASS STYLES =================== */
+.btn-margin-btm {
+  margin-bottom: .2em;
+}
+.btn-margin-top-btm {
+  margin-top: .2em;
+  margin-bottom: .2em;
+}
+.btn-margin-top {
+  margin-top: .2em;
+}
+.margin-bottom {
+  margin-bottom: 2%;
+}
+.padding-none {
+  padding: 0;
+}
+.centered-text {
+  text-align: center;
+}
+.right-aligned {
+  text-align: right;
+}
+/* =================== IMAGE CLASS STYLES =================== */
+.logo-sm {
+  width: 60%;
+}
+.img-lg {
+  width: 90%;
+}
+.img-xl {
+  width: 95%;
+}
+/* ============================== CARD STYLES ============================== */
+/* .card {
+  background-color: @ltstgrey;
+  padding: 3% 2%;
+  margin-bottom: 5%;
+  text-align: center; 
+  -webkit-box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    2px 2px 3px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         2px 2px 3px 0px rgba(50, 50, 50, 0.75);
+  .news-img {
+    width: 100%;    
+  }
+  .last-card {
+    margin-bottom: 2%; 
+  }
+}
+
+.card-img-top {
+  width: 50%; 
+}
+
+.card-img-top-lg {
+  width: 90%; 
+} */
+/* ============================== MODAL STYLES ============================== */
+/* .modal-header {
+  color: @white;
+  background-color: @maroon;  
+  button {
+    span {
+      .header-links;
+    }
+  }
+}
+
+.modal-body {
+  .body-links; 
+}
+
+.modal-footer {
+  color: @white;
+  background-color: @teal;
+  .footer-links;  
+}
+
+.modal-btn-margin {
+  margin-bottom: 5px;
+}
+
+.locations {
+  img {
+    width: 100%;
+  }
+  .location-list {
+    padding-left: 5%;
+  }
+}
+
+
+ */
+/* ============================== HEADER STYLES ============================== */
+/* ============================== NAVBAR STYLES ============================== */
+.navbar-other {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  font-weight: 600;
+}
+.navbar-other .navbar-brand img {
+  width: 15%;
+}
+.navbar-other .nav {
+  list-style: none;
+}
+.navbar-other .nav .nav-item {
+  padding: 0;
+}
+.navbar-other .nav .nav-item a {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  font-size: .875em;
+  text-decoration: none;
+}
+.navbar-other .nav .nav-item a:hover {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  /*       border: 0; */
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.navbar-other .nav .nav-item a:visited {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+.navbar-other .nav .nav-item a:active {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+.navbar-other .nav .nav-item a:focus {
+  color: #ffffff;
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.navbar-other .nav .nav-item button {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  border: 0;
+  margin-top: 12%;
+  font-size: .875em;
+}
+.navbar-other .nav .nav-item button ul li a a {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  font-size: .875em;
+  text-decoration: none;
+}
+.navbar-other .nav .nav-item button ul li a a:hover {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  /*       border: 0; */
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.navbar-other .nav .nav-item button ul li a a:visited {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+.navbar-other .nav .nav-item button ul li a a:active {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+.navbar-other .nav .nav-item button ul li a a:focus {
+  color: #ffffff;
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.navbar-other .nav button a {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  font-size: .875em;
+  text-decoration: none;
+}
+.navbar-other .nav button a:hover {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  /*       border: 0; */
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.navbar-other .nav button a:visited {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+.navbar-other .nav button a:active {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+.navbar-other .nav button a:focus {
+  color: #ffffff;
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.navbar-other .nav .dropdown-menu {
+  list-style: none;
+  padding: 0;
+}
+.navbar-other .nav .dropdown-menu .li {
+  padding: 1% 3%;
+}
+.navbar-other .nav .dropdown-menu .li a a {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  font-size: .875em;
+  text-decoration: none;
+}
+.navbar-other .nav .dropdown-menu .li a a:hover {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  /*       border: 0; */
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.navbar-other .nav .dropdown-menu .li a a:visited {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+.navbar-other .nav .dropdown-menu .li a a:active {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+.navbar-other .nav .dropdown-menu .li a a:focus {
+  color: #ffffff;
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.navbar-other .navbar-header button .navbar-toggle .icon-bar {
+  color: #ffffff;
+}
+/*  ======================== HOME ======================== */
+/* .carousel-row {
+  margin: -2% -8% 0 -8%;
+  padding-bottom: 0;
+}
+
+#carouselHome {
+  .carousel-inner {
+    .item {
+      p {
+        text-align: center;
+        .carousel-img {
+          width: 100%;
+          margin-bottom: -3%;
+        }
+      }      
+    }  
+  } 
+}
+ */
+/* ======================== HOME BLOCK STYLES ======================== */
+/* .blocks {
+  margin: 0;
+  .block-links;
+  text-align: center;
+  .block1 {
+    background-color: @teal;
+   .block-styles;
+  }
+  .block2 {
+    background-color: @ltteal;
+   .block-styles;
+  }
+  .block3 {
+    background-color: @maroon;
+   .block-styles;
+  }
+  .block4 {
+    background-color: @ltmaroon;
+   .block-styles;
+  }
+} */
+/* ======================== MISSION  BLOCK STYLES ======================== */
+/* .blocks2 {
+  margin: 0;
+  text-align: center;
+  .block5 {
+    background-color: @ltteal;
+   .block-styles2;
+  }
+  .block6 {
+    background-color: @ltmaroon;
+   .block-styles2;
+  }
+  .block7 {
+    background-color: @ltteal;
+   .block-styles2;
+  }
+}
+ */
+/* ======================== HISTORY STYLES ======================== */
+/* .accomplishments {
+  li {
+    list-style-position: outside;
+    list-style-type: disc;
+    padding-bottom: .5%;
+    margin-left: 8%;
+  }
+}
+
+ */
+/* ======================== ANNUAL REPORT STYLES ======================== */
+/* ======================== ACA STYLES ======================== */
+/* .embed-responsive {
+  text-align: center;
+}
+
+ */
+/* ======================== FOOTER STYLES ======================== */
+.footer {
+  text-align: left;
+}
+.footer h4 {
+  text-align: left;
+  font-size: 1.9em;
+}
+.footer .footer-index {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  font-size: .8em;
+  padding-top: 5%;
+}
+.footer .footer-index img {
+  width: 150px;
+}
+.footer .footer-index .container-fluid {
+  background-color: rbg(20, 71, 52);
+}
+.footer .footer-index .footer-socials {
+  display: inline-block;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+.footer .footer-index .footer-socials i {
+  margin-right: 2em;
+}
+.footer .footer-index li {
+  padding: .2em 0;
+}
+.footer .footer-index li a {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+.footer .footer-index li a:hover {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.footer .footer-index li a:visited {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+.footer .footer-index li a:active {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  /*       border: 0; */
+  text-decoration: none;
+}
+.footer .footer-index li a:focus {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.footer .footer-index li a i {
+  font-size: 1.5em;
+}
+.footer .footer-index li a img {
+  width: 80%;
+}
+.footer .footer-index p a {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+.footer .footer-index p a:hover {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.footer .footer-index p a:visited {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  text-decoration: none;
+}
+.footer .footer-index p a:active {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  /*       border: 0; */
+  text-decoration: none;
+}
+.footer .footer-index p a:focus {
+  color: #ffffff;
+  background-color: rbg(20, 71, 52);
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.footer .footer-index p a i {
+  font-size: 1.5em;
+}
+.footer .footer-index p a img {
+  width: 80%;
+}
+.footer .footer-index .address {
+  margin-top: 0.3em;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+/* ======================== MEDIA QUERIES ======================== */
+/* header buttons (about, programs) in mobile must have 17% padding removed and a minor left padding added to be in line with non-dropdown links */
+/* 
+@media (max-width:499px){
+  .navbar-other {
+    .nav {
+      .nav-item {
+        button {
+          margin-top: 0%;
+        }
+      }
+    }
+  } 
+} 
+
+
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    .dropdown {
+      margin-top: -10%;
+      margin-right: 1%;
+    }
+}  
+ */
