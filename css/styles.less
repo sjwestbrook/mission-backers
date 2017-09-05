@@ -27,24 +27,24 @@
 .header-links {
   a {
     color: @white;
-    background-color: @maroon;
+    background-color: @teal;
     font-size: .875em;
     text-decoration: none;
     &:hover {
       color: @white;
-      background-color: @maroon;
+      background-color: @teal;
 /*       border: 0; */
       outline: 1px dotted @white; 
       text-decoration: none;
     }
     &:visited {
       color: @white;
-      background-color: @maroon;
+      background-color: @teal;
       text-decoration: none;
     }
     &:active {
       color: @white;
-      background-color: @maroon;
+      background-color: @teal;
       text-decoration: none;
     }
     &:focus {
@@ -173,7 +173,7 @@
   }  
 }
 
-.block-styles {
+/* .block-styles {
     height: 260px;
     margin: 0;
     padding: 10% 2%;
@@ -181,9 +181,9 @@
       padding: 4% 5%; 
       font-size: 1.3em;
     } 
-}
+} */
 
-.block-styles2 {
+/* .block-styles2 {
     height: 360px;
     margin: 0;
     padding: 10% 2%;
@@ -192,14 +192,14 @@
       padding: 4% 5%; 
       font-size: 1.2em;
     } 
-}
+} */
 
 /* ============================== GLOBAL ELEMENT STYLES ============================== */
 
 body {
-/*   font-family: "Aleo", serif;  */
-  font-family: 'Arimo', 'Tahoma', sans-serif;
-  background-color: @ltgrey;
+  font-family: @headings;
+/*   background-color: @ltgrey; */
+  background-color: @white;
 }
 
 button, .btn, .btn-primary, .btn-block {
@@ -232,6 +232,7 @@ button, .btn, .btn-primary, .btn-block {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: @headings;
   font-weight: 700;  
   text-align: center;
 }
@@ -336,7 +337,7 @@ i {
 
 /* ============================== CARD STYLES ============================== */
 
-.card {
+/* .card {
   background-color: @ltstgrey;
   padding: 3% 2%;
   margin-bottom: 5%;
@@ -358,12 +359,12 @@ i {
 
 .card-img-top-lg {
   width: 90%; 
-}
+} */
 
 
 /* ============================== MODAL STYLES ============================== */
 
-.modal-header {
+/* .modal-header {
   color: @white;
   background-color: @maroon;  
   button {
@@ -397,7 +398,7 @@ i {
 }
 
 
-
+ */
 
 
 /* ============================== HEADER STYLES ============================== */
@@ -409,7 +410,7 @@ i {
 
 .navbar-other {
   color: @white;
-  background-color: @maroon;
+  background-color: @teal;
   font-weight: 600;
   .navbar-brand {
     img {
@@ -430,7 +431,7 @@ i {
           }
         }
         color: @white;
-        background-color: @maroon;
+        background-color: @teal;
         border: 0;
         margin-top: 12%;
         font-size: .875em;
@@ -467,7 +468,7 @@ i {
 
 /*  ======================== HOME ======================== */
 
-.carousel-row {
+/* .carousel-row {
   margin: -2% -8% 0 -8%;
   padding-bottom: 0;
 }
@@ -485,11 +486,11 @@ i {
     }  
   } 
 }
-
+ */
 
 /* ======================== HOME BLOCK STYLES ======================== */
 
-.blocks {
+/* .blocks {
   margin: 0;
   .block-links;
   text-align: center;
@@ -509,12 +510,12 @@ i {
     background-color: @ltmaroon;
    .block-styles;
   }
-}
+} */
 
 
 /* ======================== MISSION  BLOCK STYLES ======================== */
 
-.blocks2 {
+/* .blocks2 {
   margin: 0;
   text-align: center;
   .block5 {
@@ -530,13 +531,13 @@ i {
    .block-styles2;
   }
 }
-
+ */
 
 
 
 /* ======================== HISTORY STYLES ======================== */
 
-.accomplishments {
+/* .accomplishments {
   li {
     list-style-position: outside;
     list-style-type: disc;
@@ -545,7 +546,7 @@ i {
   }
 }
 
-
+ */
 
 /* ======================== ANNUAL REPORT STYLES ======================== */
 
@@ -553,11 +554,11 @@ i {
 
 /* ======================== ACA STYLES ======================== */
 
-.embed-responsive {
+/* .embed-responsive {
   text-align: center;
 }
 
-
+ */
 
 /* ======================== FOOTER STYLES ======================== */
 
@@ -612,7 +613,7 @@ i {
 
 /* header buttons (about, programs) in mobile must have 17% padding removed and a minor left padding added to be in line with non-dropdown links */
 
-
+/* 
 @media (max-width:499px){
   .navbar-other {
     .nav {
@@ -623,8 +624,7 @@ i {
       }
     }
   } 
-} /*  end media query */
-
+} 
 
 
 @media (max-width: 1200px) {
@@ -666,4 +666,5 @@ i {
       margin-top: -10%;
       margin-right: 1%;
     }
-}  /*  end media query */
+}  
+ */
