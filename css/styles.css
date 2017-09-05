@@ -1,4 +1,3 @@
-
 /* ============================== VARIABLES ============================== */
 /* ============================== COLORS ============================== */
 /* @black-transp: rgba(0, 0, 0, 0.4);
@@ -419,147 +418,147 @@ i {
  */
 /* ============================== HEADER STYLES ============================== */
 /* ============================== NAVBAR STYLES ============================== */
-.navbar-other {
+.navbar {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   font-weight: 600;
 }
-.navbar-other .navbar-brand img {
+.navbar .navbar-brand img {
   width: 15%;
 }
-.navbar-other .nav {
+.navbar .nav {
   list-style: none;
 }
-.navbar-other .nav .nav-item {
+.navbar .nav .nav-item {
   padding: 0;
 }
-.navbar-other .nav .nav-item a {
+.navbar .nav .nav-item a {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   font-size: .875em;
   text-decoration: none;
 }
-.navbar-other .nav .nav-item a:hover {
+.navbar .nav .nav-item a:hover {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   /*       border: 0; */
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
-.navbar-other .nav .nav-item a:visited {
+.navbar .nav .nav-item a:visited {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   text-decoration: none;
 }
-.navbar-other .nav .nav-item a:active {
+.navbar .nav .nav-item a:active {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   text-decoration: none;
 }
-.navbar-other .nav .nav-item a:focus {
+.navbar .nav .nav-item a:focus {
   color: #ffffff;
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
-.navbar-other .nav .nav-item button {
+.navbar .nav .nav-item button {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   border: 0;
   margin-top: 12%;
   font-size: .875em;
 }
-.navbar-other .nav .nav-item button ul li a a {
+.navbar .nav .nav-item button ul li a a {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   font-size: .875em;
   text-decoration: none;
 }
-.navbar-other .nav .nav-item button ul li a a:hover {
+.navbar .nav .nav-item button ul li a a:hover {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   /*       border: 0; */
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
-.navbar-other .nav .nav-item button ul li a a:visited {
+.navbar .nav .nav-item button ul li a a:visited {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   text-decoration: none;
 }
-.navbar-other .nav .nav-item button ul li a a:active {
+.navbar .nav .nav-item button ul li a a:active {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   text-decoration: none;
 }
-.navbar-other .nav .nav-item button ul li a a:focus {
+.navbar .nav .nav-item button ul li a a:focus {
   color: #ffffff;
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
-.navbar-other .nav button a {
+.navbar .nav button a {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   font-size: .875em;
   text-decoration: none;
 }
-.navbar-other .nav button a:hover {
+.navbar .nav button a:hover {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   /*       border: 0; */
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
-.navbar-other .nav button a:visited {
+.navbar .nav button a:visited {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   text-decoration: none;
 }
-.navbar-other .nav button a:active {
+.navbar .nav button a:active {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   text-decoration: none;
 }
-.navbar-other .nav button a:focus {
+.navbar .nav button a:focus {
   color: #ffffff;
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
-.navbar-other .nav .dropdown-menu {
+.navbar .nav .dropdown-menu {
   list-style: none;
   padding: 0;
 }
-.navbar-other .nav .dropdown-menu .li {
+.navbar .nav .dropdown-menu .li {
   padding: 1% 3%;
 }
-.navbar-other .nav .dropdown-menu .li a a {
+.navbar .nav .dropdown-menu .li a a {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   font-size: .875em;
   text-decoration: none;
 }
-.navbar-other .nav .dropdown-menu .li a a:hover {
+.navbar .nav .dropdown-menu .li a a:hover {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   /*       border: 0; */
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
-.navbar-other .nav .dropdown-menu .li a a:visited {
+.navbar .nav .dropdown-menu .li a a:visited {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   text-decoration: none;
 }
-.navbar-other .nav .dropdown-menu .li a a:active {
+.navbar .nav .dropdown-menu .li a a:active {
   color: #ffffff;
   background-color: rbg(20, 71, 52);
   text-decoration: none;
 }
-.navbar-other .nav .dropdown-menu .li a a:focus {
+.navbar .nav .dropdown-menu .li a a:focus {
   color: #ffffff;
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
-.navbar-other .navbar-header button .navbar-toggle .icon-bar {
+.navbar .navbar-header button .navbar-toggle .icon-bar {
   color: #ffffff;
 }
 /*  ======================== HOME ======================== */
