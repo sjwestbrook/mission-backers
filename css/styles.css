@@ -133,7 +133,7 @@ body {
   background-color: #ffffff;
 }
 body .container-fluid {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   background-color: #ffffff;
 }
@@ -308,28 +308,22 @@ li {
 .btn-margin-btm {
   margin-bottom: .2em;  
 }
-
 .btn-margin-top-btm {
   margin-top: .2em;  
   margin-bottom: .2em; 
 }
-
 .btn-margin-top {
   margin-top: .2em;  
 }
-
 .margin-bottom {
   margin-bottom: 2%;
 }
-
 .padding-none {
   padding: 0;  
 }
-
 .centered-text {
   text-align: center; 
 }
-
 .right-aligned {
   text-align: right; 
 }
@@ -338,11 +332,9 @@ li {
 /* .logo-sm {
   width: 60%; 
 }
-
 .img-lg {
   width: 90%; 
 }
-
 .img-xl {
   width: 95%; 
 } */
