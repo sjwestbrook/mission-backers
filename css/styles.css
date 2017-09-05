@@ -245,6 +245,9 @@ h6 {
   font-weight: 700;
   text-align: center;
 }
+.align-left {
+  text-align: left;
+}
 p,
 li {
   font-size: 1.2em;
