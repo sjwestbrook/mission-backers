@@ -60,32 +60,6 @@
   outline: 1px dotted rbg(118, 37, 61);
   text-decoration: none;
 }
-/* .block-links {
-  a {
-    color: @white;
-    text-decoration: none;
-    &:hover {
-      font-weight: bold;
-      color: @white;
-      text-decoration: none;
-      outline: 1px dotted @white; 
-    }
-    &:visited {
-      color: @white;
-      text-decoration: none;
-    }
-    &:active {
-      color: @white;
-      text-decoration: none;
-    }
-    &:focus {    
-      font-weight: bold;
-      color: @white;
-      text-decoration: none;
-      outline: 1px dotted @white; 
-    }
-  } 
-} */
 .button-links a {
   color: #ffffff;
   text-decoration: none;
@@ -144,29 +118,15 @@
 .footer-links a img {
   width: 80%;
 }
-/* .block-styles {
-    height: 260px;
-    margin: 0;
-    padding: 10% 2%;
-    p {
-      padding: 4% 5%; 
-      font-size: 1.3em;
-    } 
-} */
-/* .block-styles2 {
-    height: 360px;
-    margin: 0;
-    padding: 10% 2%;
-    color: @white;
-    p {
-      padding: 4% 5%; 
-      font-size: 1.2em;
-    } 
-} */
 /* ============================== GLOBAL ELEMENT STYLES ============================== */
 body {
   font-family: 'Alegreya', serif;
   /*   background-color: @ltgrey; */
+  background-color: #ffffff;
+}
+body .container-fluid {
+  width: 80%;
+  margin: 0 auto;
   background-color: #ffffff;
 }
 button,
@@ -308,18 +268,7 @@ li {
   margin: 0;
   padding: 0;
 }
-ol li {
-  list-style-type: disc;
-}
-i {
-  margin-right: .25em;
-}
 /* ============================== GLOBAL CLASS STYLES ============================== */
-.container-fluid {
-  width: 80%;
-  margin: 0 auto;
-  background-color: #ffffff;
-}
 .bold {
   font-weight: bold;
 }
@@ -375,9 +324,11 @@ i {
     margin-bottom: 2%; 
   }
 }
+
 .card-img-top {
   width: 50%; 
 }
+
 .card-img-top-lg {
   width: 90%; 
 } */
@@ -391,17 +342,21 @@ i {
     }
   }
 }
+
 .modal-body {
   .body-links; 
 }
+
 .modal-footer {
   color: @white;
   background-color: @teal;
   .footer-links;  
 }
+
 .modal-btn-margin {
   margin-bottom: 5px;
 }
+
 .locations {
   img {
     width: 100%;
@@ -410,6 +365,8 @@ i {
     padding-left: 5%;
   }
 }
+
+
  */
 /* ============================== HEADER STYLES ============================== */
 /* ============================== NAVBAR STYLES ============================== */
@@ -418,142 +375,98 @@ i {
   background-color: #144734;
   font-weight: 600;
 }
-.navbar-other .navbar-brand img {
-  width: 15%;
+.navbar-other .container-fluid {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #144734;
 }
-.navbar-other .nav {
+.navbar-other .container-fluid .navbar-brand img {
+  width: 30%;
+}
+.navbar-other .container-fluid .nav {
   list-style: none;
+  background-color: #144734;
+  /*       button {
+        .header-links; 
+      }
+      .dropdown-menu {
+        list-style: none;
+        padding: 0;
+        .li {
+          padding: 1% 3%;
+           a {
+            .header-links;
+          }
+        }     
+      }     */
 }
-.navbar-other .nav .nav-item {
+.navbar-other .container-fluid .nav .nav-item {
   padding: 0;
 }
-.navbar-other .nav .nav-item a {
+.navbar-other .container-fluid .nav .nav-item a {
   color: #ffffff;
   background-color: #144734;
   font-size: .875em;
   text-decoration: none;
 }
-.navbar-other .nav .nav-item a:hover {
+.navbar-other .container-fluid .nav .nav-item a:hover {
   color: #ffffff;
   background-color: #144734;
   /*       border: 0; */
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
-.navbar-other .nav .nav-item a:visited {
+.navbar-other .container-fluid .nav .nav-item a:visited {
   color: #ffffff;
   background-color: #144734;
   text-decoration: none;
 }
-.navbar-other .nav .nav-item a:active {
+.navbar-other .container-fluid .nav .nav-item a:active {
   color: #ffffff;
   background-color: #144734;
   text-decoration: none;
 }
-.navbar-other .nav .nav-item a:focus {
+.navbar-other .container-fluid .nav .nav-item a:focus {
   color: #ffffff;
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
-.navbar-other .nav .nav-item button {
+.navbar-other .container-fluid .nav .nav-item button {
   color: #ffffff;
   background-color: #144734;
   border: 0;
   margin-top: 12%;
   font-size: .875em;
 }
-.navbar-other .nav .nav-item button ul li a a {
+.navbar-other .container-fluid .nav .nav-item button ul li a a {
   color: #ffffff;
   background-color: #144734;
   font-size: .875em;
   text-decoration: none;
 }
-.navbar-other .nav .nav-item button ul li a a:hover {
+.navbar-other .container-fluid .nav .nav-item button ul li a a:hover {
   color: #ffffff;
   background-color: #144734;
   /*       border: 0; */
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
-.navbar-other .nav .nav-item button ul li a a:visited {
+.navbar-other .container-fluid .nav .nav-item button ul li a a:visited {
   color: #ffffff;
   background-color: #144734;
   text-decoration: none;
 }
-.navbar-other .nav .nav-item button ul li a a:active {
+.navbar-other .container-fluid .nav .nav-item button ul li a a:active {
   color: #ffffff;
   background-color: #144734;
   text-decoration: none;
 }
-.navbar-other .nav .nav-item button ul li a a:focus {
+.navbar-other .container-fluid .nav .nav-item button ul li a a:focus {
   color: #ffffff;
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
-.navbar-other .nav button a {
-  color: #ffffff;
-  background-color: #144734;
-  font-size: .875em;
-  text-decoration: none;
-}
-.navbar-other .nav button a:hover {
-  color: #ffffff;
-  background-color: #144734;
-  /*       border: 0; */
-  outline: 1px dotted #ffffff;
-  text-decoration: none;
-}
-.navbar-other .nav button a:visited {
-  color: #ffffff;
-  background-color: #144734;
-  text-decoration: none;
-}
-.navbar-other .nav button a:active {
-  color: #ffffff;
-  background-color: #144734;
-  text-decoration: none;
-}
-.navbar-other .nav button a:focus {
-  color: #ffffff;
-  outline: 1px dotted #ffffff;
-  text-decoration: none;
-}
-.navbar-other .nav .dropdown-menu {
-  list-style: none;
-  padding: 0;
-}
-.navbar-other .nav .dropdown-menu .li {
-  padding: 1% 3%;
-}
-.navbar-other .nav .dropdown-menu .li a a {
-  color: #ffffff;
-  background-color: #144734;
-  font-size: .875em;
-  text-decoration: none;
-}
-.navbar-other .nav .dropdown-menu .li a a:hover {
-  color: #ffffff;
-  background-color: #144734;
-  /*       border: 0; */
-  outline: 1px dotted #ffffff;
-  text-decoration: none;
-}
-.navbar-other .nav .dropdown-menu .li a a:visited {
-  color: #ffffff;
-  background-color: #144734;
-  text-decoration: none;
-}
-.navbar-other .nav .dropdown-menu .li a a:active {
-  color: #ffffff;
-  background-color: #144734;
-  text-decoration: none;
-}
-.navbar-other .nav .dropdown-menu .li a a:focus {
-  color: #ffffff;
-  outline: 1px dotted #ffffff;
-  text-decoration: none;
-}
-.navbar-other .navbar-header button .navbar-toggle .icon-bar {
+.navbar-other .container-fluid .navbar-header button .navbar-toggle .icon-bar {
   color: #ffffff;
 }
 /*  ======================== HOME ======================== */
@@ -561,6 +474,7 @@ i {
   margin: -2% -8% 0 -8%;
   padding-bottom: 0;
 }
+
 #carouselHome {
   .carousel-inner {
     .item {
@@ -573,62 +487,6 @@ i {
       }      
     }  
   } 
-}
- */
-/* ======================== HOME BLOCK STYLES ======================== */
-/* .blocks {
-  margin: 0;
-  .block-links;
-  text-align: center;
-  .block1 {
-    background-color: @teal;
-   .block-styles;
-  }
-  .block2 {
-    background-color: @ltteal;
-   .block-styles;
-  }
-  .block3 {
-    background-color: @maroon;
-   .block-styles;
-  }
-  .block4 {
-    background-color: @ltmaroon;
-   .block-styles;
-  }
-} */
-/* ======================== MISSION  BLOCK STYLES ======================== */
-/* .blocks2 {
-  margin: 0;
-  text-align: center;
-  .block5 {
-    background-color: @ltteal;
-   .block-styles2;
-  }
-  .block6 {
-    background-color: @ltmaroon;
-   .block-styles2;
-  }
-  .block7 {
-    background-color: @ltteal;
-   .block-styles2;
-  }
-}
- */
-/* ======================== HISTORY STYLES ======================== */
-/* .accomplishments {
-  li {
-    list-style-position: outside;
-    list-style-type: disc;
-    padding-bottom: .5%;
-    margin-left: 8%;
-  }
-}
- */
-/* ======================== ANNUAL REPORT STYLES ======================== */
-/* ======================== ACA STYLES ======================== */
-/* .embed-responsive {
-  text-align: center;
 }
  */
 /* ======================== FOOTER STYLES ======================== */
@@ -747,6 +605,8 @@ i {
     }
   }
 } 
+
+
 @media (max-width: 1200px) {
     .navbar-header {
         float: none;
