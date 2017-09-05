@@ -1,10 +1,9 @@
-<!--
 <div id="skip">
   <a href="#content">Skip to Main Content</a>
 </div>
--->
 
 <nav class="navbar-other">
+
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -13,22 +12,54 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" ui-sref="home" title="Go to Mission Backers home page">
-        <img class="logo" src="./images/logos/MissionBackersLogo.jpg" alt="" />
+      <a class="navbar-brand" ui-sref="home">
+        <img class="logo" src="./images/logos/wci-logo-white.png" alt="Workforce Connections Inc." />
       </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar">
-      <ul class="nav navbar-nav navbar-right">        
-
-        <li class="nav-item"><a ui-sref="about">About</a></li>            
-        <li class="nav-item"><a ui-sref="services">Services</a></li>              
-        <li class="nav-item"><a ui-sref="staff">Our Staff</a></li>         
-        <li class="nav-item"><a ui-sref="volunteer">Volunteer</a></li>        
-        <li class="nav-item"><a ui-sref="testimonials">Testimonials</a></li>
-        <li class="nav-item"><a ui-sref="contact">Contact Us</a></li>
-
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item dropdown">
+          <button id="aboutUsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About Us
+              <span class="caret"></span>
+          </button>  <!-- class="nav-link dropdown-toggle"  -->
+          <ul class="dropdown-menu" aria-labelledby="aboutUsDropdown">             
+            <li><a class="dropdown-item" ui-sref="executive-director">A word from our Executive Director</a></li>
+            <li><a class="dropdown-item" ui-sref="mission">Mission, Vision &amp; Values</a></li>
+            <li><a class="dropdown-item" ui-sref="history">Corporate History</a></li>
+            <li><a class="dropdown-item" ui-sref="locations">Locations</a></li>
+            <li><a class="dropdown-item" ui-sref="staff">Staff</a></li>            
+            <li><a class="dropdown-item" ui-sref="board">Board of Directors</a></li>
+            <li><a class="dropdown-item" ui-sref="reports">Annual Reports</a></li>
+            <li><a class="dropdown-item" ui-sref="impact-stories">Impact Stories</a> </li>            
+            <li><a class="dropdown-item" ui-sref="volunteer">Volunteer</a></li>
+            <li><a class="dropdown-item" href="../pdfs/Grievance Procedures--WCI Only (updated 10-31-16).pdf" target="_blank" aria-label="Open grievance procedures in a new tab">Grievance Procedures (PDF)</a></li>  <!-- find pdf -->               
+          </ul>
+        </li> <!-- end about us dropdown -->           
+        <li class="nav-item"><a ui-sref="business-solutions">Business Solutions</a></li>            
+        <li class="nav-item"><a ui-sref="job-seeker">Job Seeker Services</a></li>              
+        <li class="nav-item"><a ui-sref="resources">Resources</a></li> 
+        <li class="nav-item dropdown">
+          <button id="programDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Programs
+            <span class="caret"></span>
+          </button>  <!-- class="nav-link dropdown-toggle"  -->
+          <ul class="dropdown-menu" aria-labelledby="programDropdown">
+            <li><a class="dropdown-item" ui-sref="aca">Healthcare</a></li>
+            <li><a class="dropdown-item"ui-sref="children-first">Children First</a></li>
+            <li><a class="dropdown-item" ui-sref="emergency-assistance">Emergency Assistance</a></li> 
+            <li><a class="dropdown-item" ui-sref="fset">FoodShare Employment &amp; Training</a></li>                    
+            <li><a class="dropdown-item" ui-sref="foster-grandparents">Foster Grandparents</a></li>
+            <li><a class="dropdown-item" ui-sref="w2w">Windows to Work</a></li>
+            <li>
+              <a class="dropdown-item" ui-sref="wioa">WIOA (Workforce Innovation &amp; Opportunity Act)</a>
+            </li>
+            <li><a class="dropdown-item" ui-sref="w2">Wisconsin Works (W2)</a></li>
+            <li><a class="dropdown-item" ui-sref="wise">WISE Program</a></li>   
+          </ul>
+        </li>   <!-- end program dropdown -->   
         <li class="nav-item"><a ui-sref="news">News</a></li>        
         <li class="nav-item"><a ui-sref="careers">Careers</a></li>
         <li class="nav-item"><a ui-sref="request-services">Request Services</a></li>
@@ -38,9 +69,13 @@
 
 
 
-<!--
-<nav class="navbar-other">
 
+<!--
+<div id="skip">
+  <a href="#content">Skip to Main Content</a>
+</div>
+
+<nav class="navbar-other">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
@@ -52,7 +87,6 @@
         <img class="logo" src="./images/logos/MissionBackersLogo.jpg" alt="" />
       </a>
     </div>
-
 
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="nav navbar-nav navbar-right">       
@@ -65,5 +99,4 @@
       </ul>
     </div>
 </nav>
-
 -->
