@@ -137,10 +137,50 @@ button,
 .btn-block {
   font-size: 1.35em;
   font-weight: bold;
-  /*   .button-links; */
   color: #ffffff;
   background-color: #144734;
   border-radius: 0;
+}
+button a,
+.btn a,
+.btn-primary a,
+.btn-block a {
+  color: #ffffff;
+  text-decoration: none;
+}
+button a:hover,
+.btn a:hover,
+.btn-primary a:hover,
+.btn-block a:hover {
+  color: #ffffff;
+  background-color: rbg(118, 37, 61);
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+button a:visited,
+.btn a:visited,
+.btn-primary a:visited,
+.btn-block a:visited {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #144734;
+}
+button a:active,
+.btn a:active,
+.btn-primary a:active,
+.btn-block a:active {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: rbg(118, 37, 61);
+}
+button a:focus,
+.btn a:focus,
+.btn-primary a:focus,
+.btn-block a:focus {
+  color: #ffffff;
+  background-color: rbg(118, 37, 61);
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
 }
 button:hover,
 .btn:hover,
@@ -289,11 +329,9 @@ li {
     margin-bottom: 2%; 
   }
 }
-
 .card-img-top {
   width: 50%; 
 }
-
 .card-img-top-lg {
   width: 90%; 
 } */
@@ -307,21 +345,17 @@ li {
     }
   }
 }
-
 .modal-body {
   .body-links; 
 }
-
 .modal-footer {
   color: @white;
   background-color: @teal;
   .footer-links;  
 }
-
 .modal-btn-margin {
   margin-bottom: 5px;
 }
-
 .locations {
   img {
     width: 100%;
@@ -330,8 +364,6 @@ li {
     padding-left: 5%;
   }
 }
-
-
  */
 /* ============================== HEADER STYLES ============================== */
 /* ============================== NAVBAR STYLES ============================== */
@@ -441,7 +473,6 @@ li {
   margin: -2% -8% 0 -8%;
   padding-bottom: 0;
 }
-
 #carouselHome {
   .carousel-inner {
     .item {
