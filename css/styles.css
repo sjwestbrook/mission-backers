@@ -342,6 +342,9 @@ li {
   background-color: #144734;
   height: 6rem;
 }
+.navbar-other .container-fluid .navbar-brand {
+  padding: 0;
+}
 .navbar-other .container-fluid .navbar-brand img {
   width: 80%;
 }
