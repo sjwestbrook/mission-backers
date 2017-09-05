@@ -432,7 +432,7 @@ li {
   text-decoration: none;
 }
 .navbar-other .container-fluid .navbar-header button .navbar-toggle .icon-bar {
-  color: #ffffff;
+  background-color: #ffffff;
 }
 /*  ======================== HOME ======================== */
 /* ======================== FOOTER STYLES ======================== */
