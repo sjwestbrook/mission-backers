@@ -374,14 +374,16 @@ li {
   color: #ffffff;
   background-color: #144734;
   font-weight: 600;
+  border-radius: 0;
 }
 .navbar-other .container-fluid {
   width: 100%;
   margin: 0 auto;
   background-color: #144734;
+  height: 6rem;
 }
 .navbar-other .container-fluid .navbar-brand img {
-  width: 60%;
+  width: 80%;
 }
 .navbar-other .container-fluid .nav {
   list-style: none;
@@ -593,58 +595,3 @@ li {
   font-size: 1.3em;
   font-weight: bold;
 }
-/* ======================== MEDIA QUERIES ======================== */
-/* header buttons (about, programs) in mobile must have 17% padding removed and a minor left padding added to be in line with non-dropdown links */
-/* 
-@media (max-width:499px){
-  .nav {
-    .nav-item {
-      button {
-        margin-top: 0%;
-      }
-    }
-  }
-} 
-
-
-@media (max-width: 1200px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin-top: 7.5px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in{
-        display:block !important;
-    }
-    .dropdown {
-      margin-top: -10%;
-      margin-right: 1%;
-    }
-}  
- */
